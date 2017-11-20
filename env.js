@@ -1,7 +1,9 @@
 cfenv= require('cfenv');
 appEnv = cfenv.getAppEnv();
 
-serviceCred = appEnv.getServiceCreds("test_blockchain")
+// for test_blockchain instance //serviceCred = appEnv.getServiceCreds("test_blockchain")
+
+serviceCred = appEnv.getServiceCreds("smartmedical-blockchain")
 
 	
 	module.exports.serviceUrl= serviceCred.serviceUrl

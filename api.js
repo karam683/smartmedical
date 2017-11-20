@@ -1,8 +1,8 @@
 request=require('request');
 
 var env =require('./env.js');
-var chaincode ="b2279e0cbbc294aef9eb4ca4c85d489f";
-
+// for test_blockchain instance //var chaincode ="b2279e0cbbc294aef9eb4ca4c85d489f";
+var chaincode ="083e3fb357c46f5bdfdc9cf527cf410c";
 module.exports = {
 
 searchByKitId: function (req,res)
